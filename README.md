@@ -7,6 +7,7 @@ The script for scheduled task is running script 'X:\ers\compilation_daemon.bat' 
 Task name of scheduled task is 'ers_compilation_daemon'
   
 ## some usefull links  
+[wiki](https://github.com/davitkalantaryan/virtual_box_to_run_commands/wiki)  
 [windows installation media download](https://www.microsoft.com/en-us/software-download/windows10)  
 [prepare windows virtual box](https://en.wikibooks.org/wiki/VirtualBox/Setting_up_a_Virtual_Machine/Windows)  
 [windows headless VBOX](https://stackoverflow.com/questions/19017825/how-to-run-oracle-virtualbox-vbox-in-fully-background-microsoft-windows-wi)   
