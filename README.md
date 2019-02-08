@@ -4,7 +4,13 @@ Our aim is to prepare windows headless virtual box. Jenkins will get from git so
 The root path of host will be mounted to guest Windows, this will make possible to compile sources from any directory of host.  
 The name of '/' shared folder is 'ROOT ', so to access it from guest Windows '\\vboxsvr\ROOT' should be used.  
 The script for scheduled task is running script 'X:\ers\compilation_daemon.bat' on guest Windows and '/ers/compilation_daemon.bat' on host LINUX.  
-Task name of scheduled task is 'ers_compilation_daemon'
+Task name of scheduled task is 'ers_compilation_daemon'  
+  
+## How to use  
+```bash
+compilation_service_client znmugato39 msbuild to_compile_by_service_test.sln /t:Rebuild /p:Configuration=Debug;Platform=x64
+compilation_service_client znmugato39 devenv to_compile_by_service_test.sln /rebuild "Debug|x64"
+```
   
 ## some usefull links  
 [wiki](https://github.com/davitkalantaryan/virtual_box_to_run_commands/wiki)  
