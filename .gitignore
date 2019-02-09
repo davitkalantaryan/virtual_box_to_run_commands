@@ -23,6 +23,7 @@ sys/*/bin/*
 
 #prj/*/*/*
 #prj
+prj/*/*_cmake/*/*
 prj/*/*/Debug
 prj/*/*/Release
 prj/*/*/DebugDbg
