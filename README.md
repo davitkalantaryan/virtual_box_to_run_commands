@@ -8,10 +8,10 @@ Task name of scheduled task is 'ers_compilation_daemon'
   
 ## How to use  
 ```bash
-run_on_host 192.168.56.101 msbuild to_compile_by_service_test.sln /t:Rebuild /p:Configuration=Debug;Platform=x64  
-run_on_host 192.168.56.101 devenv to_compile_by_service_test.sln /rebuild "Debug|x64"  
-run_on_host 192.168.56.101 cmake -G "Visual Studio 15 ARM" ..  
-run_on_host 192.168.56.101 cmake --build .  
+run_on_win_guest msbuild to_compile_by_service_test.sln /t:Rebuild /p:Configuration=Debug;Platform=x64  
+run_on_win_guest devenv to_compile_by_service_test.sln /rebuild "Debug|x64"  
+run_on_win_guest cmake -G "Visual Studio 15 ARM" ..  
+run_on_win_guest cmake --build .  
 ```
   
 ## some usefull links  
