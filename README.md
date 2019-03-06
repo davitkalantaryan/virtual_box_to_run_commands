@@ -1,4 +1,4 @@
-# Windows virtual box hosted by Linux    
+# **Windows virtual box hosted by Linux**  
 
 ## Introduction  
 
@@ -13,8 +13,8 @@ caller of wrapper API.
 
 ## Use cases  
 
-If some automation service runs on Linux and should run Windows specific commands, then this system  
-can be used
+If some automation service runs on Linux and should run Windows specific commands, then this system can be used.  
+For example:  
   
 ## How to use  
 ```bash  
