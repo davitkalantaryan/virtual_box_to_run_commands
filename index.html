@@ -1,15 +1,22 @@
-<a><font size="8"><div align="center">Presentations</div></font></a><br><br><br>
+<a><font size="8"><div align="center">Windows VirtualBox hosted by Linux</div></font></a><br><br><br>
 
 
 <br> <br>
 
 <a>
 <font size="5">
-Following interesting presentations could be found here
+The aim is to prepare Windows headless Virual Box hsoted by Linux.  
+The VirtualBox is headless and does not require any GUI and could be started  
+from the script in /etc/init.d directory for any runlevel.  
+There is a Windows service running on guest Windows, that receives from hosting Linux  
+Windows specific commands and runs them wit redirected output in such a way, that Linux  
+wrapper API is able to get all outputs. Linux wrapper API also can receive the return code  
+of Windows specific command and return it to make last error in the Windows accessible also  
+caller of wrapper API.  
 
 <br><br>
 Usefull links <br>
-<a href="pdfs/pdfs.html"><b>pdfs</b></a> <br>
+<a href="https://github.com/davitkalantaryan/virtual_box_to_run_commands"><b>github repo</b></a> <br>
 
 </font>
 </a><br><br>
