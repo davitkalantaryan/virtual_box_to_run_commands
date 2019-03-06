@@ -1,4 +1,4 @@
-# WINDOWS virtual box preparation hints  
+# Windows virtual box hosted by Linux    
 
 ## Introduction  
 
