@@ -84,8 +84,4 @@ popd
   
 ## some usefull links  
 [wiki](https://github.com/davitkalantaryan/virtual_box_to_run_commands/wiki)  
-[windows installation media download](https://www.microsoft.com/en-us/software-download/windows10)  
-[prepare windows virtual box](https://en.wikibooks.org/wiki/VirtualBox/Setting_up_a_Virtual_Machine/Windows)  
-[windows headless VBOX](https://stackoverflow.com/questions/19017825/how-to-run-oracle-virtualbox-vbox-in-fully-background-microsoft-windows-wi)   
-[share folder with host](https://help.ubuntu.com/community/VirtualBox/SharedFolders)  
-[host guet communication](https://www.tecmint.com/network-between-guest-vm-and-host-virtualbox/)  
+[web](https://davitkalantaryan.github.io/virtual_box_to_run_commands/)  
