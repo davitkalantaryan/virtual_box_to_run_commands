@@ -1,10 +1,20 @@
 # WINDOWS virtual box preparation hints  
 
-Our aim is to prepare windows headless virtual box. Jenkins will get from git sources, so we should share source folder with guest WINDOWS.  
-The root path of host will be mounted to guest Windows, this will make possible to compile sources from any directory of host.  
-The name of '/' shared folder is 'ROOT ', so to access it from guest Windows '\\vboxsvr\ROOT' should be used.  
-The script for scheduled task is running script 'X:\ers\compilation_daemon.bat' on guest Windows and '/ers/compilation_daemon.bat' on host LINUX.  
-Task name of scheduled task is 'ers_compilation_daemon'  
+## Introduction  
+
+The aim is to prepare Windows headless Virual Box hsoted by Linux.  
+The VirtualBox is headless and does not require any GUI and could be started  
+from the script in /etc/init.d directory for any runlevel.  
+There is a Windows service running on guest Windows, that receives from hosting Linux  
+Windows specific commands and runs them wit redirected output in such a way, that Linux  
+wrapper API is able to get all outputs. Linux wrapper API also can receive the return code  
+of Windows specific command and return it to make last error in the Windows accessible also  
+caller of wrapper API.  
+
+## Use cases  
+
+If some automation service runs on Linux and should run Windows specific commands, then this system  
+can be used
   
 ## How to use  
 ```bash  
