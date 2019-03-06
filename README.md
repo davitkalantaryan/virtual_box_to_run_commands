@@ -15,8 +15,9 @@ caller of wrapper API.
 
 If some automation service runs on Linux and should run Windows specific commands, then this system can be used.  
 For example:  
-- Jenkins node on Linux  
-- Travis node on Linux  
+- Run compilation of Windows binaries from CI services running on Linux (for example Jenkins or Travis)  
+- Run postcompilation tests (unit test, integration test) for Windows binaries  
+- Prepare Windows packages    
   
 ## How to use  
 ```bash  
